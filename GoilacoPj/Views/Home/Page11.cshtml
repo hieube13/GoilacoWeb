@@ -1,0 +1,260 @@
+﻿
+@section Styles
+{
+    <link href="~/css/Home/Page11.css" rel="stylesheet" />
+}
+
+<div class="page-background">
+
+    @await Html.PartialAsync("~/Views/Shared/_headerNav.cshtml")
+
+    <div class="row"> 
+        <div class="col-xl-3 col-md-12">
+            <div class="labelredtext" style="font-size: 1.2em;"><span>> </span>nhiệm vụ</div>
+            <div class="mt-2 labelredtext">ghi chú:</div>
+            <div>
+                Ô hiện màu đỏ: Nhân sự tiếp nhận sau 2 giờ, bị trừ <span class="blacktext">50 điểm</span>
+            </div>
+
+            <div class="d-flex justify-content-end mt-4">
+                <img src="~/assets/img/Others/NewNoti.png" style="width: 70px; height: auto;" />
+            </div>
+
+            
+        </div>
+
+        <div class="col-xl-9 col-md-12">
+            <div class="row d-flex align-items-center justify-content-start">
+                <div class="col-xl-9 col-md-9 col-sm-9">
+                    <table class="table table-bordered">
+                        <thead class="table-light">
+                            <tr>
+                                <th class="labelblacktext" rowspan="2" style="background-color: #afd9fb;">Nhiệm vụ</th>
+                                <th class="labelblacktext" rowspan="2" style="background-color: #8bb7f0;">Deadline</th>
+                                <th class="labelblacktext" colspan="4" style="width: 200px !important;background-color: #8bb7f0;">Người nhận nhiệm vụ</th>
+                            </tr>
+                            <tr>
+                                <th class="subheader">Hùng Cường</th>
+                                <th class="subheader">Quốc Việt</th>
+                                <th class="subheader">Ngọc Hương</th>
+                                <th class="subheader">Hoàng Lân</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Hoàn thành video training</td>
+                                <td>
+                                    <div class="d-flex gap-2">
+
+                                        <div style="font-size: 1.2em;">
+                                            <i class="fa-regular fa-clock"></i>
+                                        </div>
+
+                                        <div class="blacktext">
+                                            1/10/2024
+                                        </div>
+
+                                    </div>
+                                </td>
+                                <td><input type="checkbox" class="large-checkbox"></td>
+                                <td><input type="checkbox" class="large-checkbox"></td>
+                                <td><input type="checkbox" class="large-checkbox"></td>
+                                <td><input type="checkbox" class="large-checkbox"></td>
+                            </tr>
+                            <tr>
+                                <td>Chia sẻ bài post fanpage</td>
+                                <td>
+                                    <div class="d-flex gap-2">
+
+                                        <div style="font-size: 1.2em;">
+                                            <i class="fa-regular fa-clock"></i>
+                                        </div>
+
+                                        <div class="blacktext">
+                                            1/10/2024
+                                        </div>
+
+                                    </div>
+                                </td>
+                                <td><input type="checkbox" class="large-checkbox"></td>
+                                <td><input type="checkbox" class="large-checkbox"></td>
+                                <td><input type="checkbox" class="large-checkbox"></td>
+                                <td><input type="checkbox" class="large-checkbox"></td>
+                            </tr>
+                            <tr>
+                                <td>Hoàn thành kịch bản gọi ra</td>
+                                <td>
+                                    <div class="d-flex gap-2">
+
+                                        <div style="font-size: 1.2em;">
+                                            <i class="fa-regular fa-clock"></i>
+                                        </div>
+
+                                        <div class="blacktext">
+                                            1/10/2024
+                                        </div>
+
+                                    </div>
+                                </td>
+                                <td><input type="checkbox" class="large-checkbox"></td>
+                                <td><input type="checkbox" class="large-checkbox"></td>
+                                <td><input type="checkbox" class="large-checkbox"></td>
+                                <td><input type="checkbox" class="large-checkbox"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="col-xl-2 col-md-2 col-sm-2 ms-3">
+                    <div class="d-flex align-items-center justify-content-center gap-3">
+
+                        <div class="d-flex flex-column justify-content-center">
+                            <div class="redtext">2:00:00</div>
+                            <div>
+                                <img src="~/assets/img/Others/Hourglass.jpg" style="width: 50px; height: auto;" />
+                            </div>
+                        </div>
+
+                        <div style="margin-top: 25px;">
+                            <a href="#" style="display: inline-block;">
+                                <img src="~/assets/img/Others/ArrowRight.jpg" style="width: 50px; height: auto;" alt="Arrow Link"/>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xl-12">
+            <div class="labelredtext" style="font-size: 1.2em;"><span>>> </span>liên lạc</div>
+            <div class="labelblacktext mt-2">các thư đã tiếp nhận</div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xl-12">
+            <div class="table-responsive">
+                <table class="table table-bordered mt-2">
+                    <thead class="table-light">
+                        <tr>
+                            <th style="width: 9%;">Ngày tiếp nhận</th>
+                            <th style="width: 15%;">Tên nhân sự</th>
+                            <th>Cơ sở</th>
+                            <th style="width: 35%;">Nội dung</th>
+                            <th style="width: 35%;">Trả lời</th>
+                            <th>Gửi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>01/10/2024</td>
+                            <td class="labelblacktext">Nguyễn Văn A</td>
+                            <td class="labelblacktext">vivutoday</td>
+                            <td class="text-left" style="vertical-align: top;">
+                                Gần đây, tôi cảm thấy khối lượng công việc đã tăng 
+                                    đáng kể, vượt quá khả năng hoàn thành trong thời gian làm việc 
+                                    bình thường. Điều này khiến tôi phải làm thêm giờ liên tục, ảnh
+                                    hưởng đến sức khoẻ và cuộc sống cá nhân
+                            </td>
+                            <td class="text-left" style="vertical-align: top;">
+                                    Gần đây, tôi cảm thấy khối lượng công việc đã tăng
+                                    đáng kể, vượt quá khả năng hoàn thành trong thời gian làm việc
+                                    bình thường. Điều này khiến tôi phải làm thêm giờ liên tục, ảnh
+                                    hưởng đến sức khoẻ và cuộc sống cá nhân
+                            </td>
+                            <td>
+                                <a href="#" style="display: inline-block;">
+                                    <img src="~/assets/img/Others/ArrowRight.jpg" style="width: 50px; height: auto;" alt="Arrow Link"/>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>02/10/2024</td>
+                            <td class="labelblacktext">Trần Thị B</td>
+                            <td class="labelblacktext">goilaco</td>
+                            <td class="text-left" style="vertical-align: top;">
+                                Gần đây, tôi cảm thấy khối lượng công việc đã tăng
+                                đáng kể, vượt quá khả năng hoàn thành trong thời gian làm việc
+                                bình thường.
+                            </td>
+                            <td class="text-left" style="vertical-align: top;">
+                                <p>
+                                    Gần đây, tôi cảm thấy khối lượng công việc đã tăng
+                                    đáng kể, vượt quá khả năng hoàn thành trong thời gian làm việc
+                                    bình thường. Điều này khiến tôi phải làm thêm giờ liên tục, ảnh
+                                    hưởng đến sức khoẻ và cuộc sống cá nhân
+                                </p>
+                            </td>
+                            <td>
+                                <a href="#" style="display: inline-block;">
+                                    <img src="~/assets/img/Others/ArrowRight.jpg" style="width: 50px; height: auto;" alt="Arrow Link"/>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>03/10/2024</td>
+                            <td class="labelblacktext">Nguyễn Văn C</td>
+                            <td class="labelblacktext">techwise</td>
+                            <td class="text-left" style="vertical-align: top;">
+                                    Gần đây, tôi cảm thấy khối lượng công việc đã tăng
+                                    đáng kể, vượt quá khả năng hoàn thành trong thời gian làm việc
+                                    bình thường. Điều này khiến tôi phải làm thêm giờ liên tục, ảnh
+                                    hưởng đến sức khoẻ và cuộc sống cá nhân
+                            </td>
+                            <td class="text-left" style="vertical-align: top;">
+                                Gần đây, tôi cảm thấy khối lượng công việc đã tăng
+                                đáng kể, vượt quá khả năng hoàn thành trong thời gian làm việc
+                                bình thường. Điều này khiến tôi phải làm thêm giờ liên tục, ảnh
+                                hưởng đến sức khoẻ và cuộc sống cá nhân
+                            </td>
+                            <td>
+                                <a href="#" style="display: inline-block;">
+                                    <img src="~/assets/img/Others/ArrowRight.jpg" style="width: 50px; height: auto;" alt="Arrow Link"/>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>03/10/2024</td>
+                            <td class="labelblacktext">Nguyễn Văn C</td>
+                            <td class="labelblacktext">online</td>
+                            <td class="text-left" style="vertical-align: top;">
+                                Gần đây, tôi cảm thấy khối lượng công việc đã tăng
+                                đáng kể, vượt quá khả năng hoàn thành trong thời gian làm việc
+                                bình thường. Điều này khiến tôi phải làm thêm giờ liên tục, ảnh
+                                hưởng đến sức khoẻ và cuộc sống cá nhân
+                            </td>
+                            <td class="text-left" style="vertical-align: top;">
+                                Gần đây, tôi cảm thấy khối lượng công việc đã tăng
+                                đáng kể, vượt quá khả năng hoàn thành trong thời gian làm việc
+                                bình thường. Điều này khiến tôi phải làm thêm giờ liên tục, ảnh
+                                hưởng đến sức khoẻ và cuộc sống cá nhân
+                            </td>
+                            <td>
+                                <a href="#" style="display: inline-block;">
+                                    <img src="~/assets/img/Others/ArrowRight.jpg" style="width: 50px; height: auto;" alt="Arrow Link"/>
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xl-12">
+            <div class="d-flex justify-content-center">
+                <button class="labelwhitetext btnCustome">see more</button>
+            </div>
+        </div>
+    </div>        
+
+</div>
+
+@section Scripts
+{
+    <script src="~/js/Home/Page11.js"></script>
+}

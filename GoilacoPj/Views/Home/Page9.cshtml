@@ -1,0 +1,156 @@
+﻿
+@section Styles
+{
+    <link href="~/css/Home/Page9.css" rel="stylesheet" />
+}
+
+<div class="page-background">
+
+    @await Html.PartialAsync("~/Views/Shared/_headerNav.cshtml")
+
+    <div class="row">
+        <div class="col-xl-12 col-md-12">
+            <div class="d-flex justify-content-center mt-2">
+                <div class="col-3 d-flex justify-content-center" style="margin-top: -30px;;">
+                    <img src="~/assets/img/BG/Page9-1.png" />                    
+                </div>
+                <div class="col d-flex justify-content-start">
+                    <img src="~/assets/img/BG/Page9-2.png" style="width: 60%; height: auto;"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-xl-4 col-md-12">
+            <div class="d-flex flex-column align-items-center">
+
+                <div class="labelredtext">Danh sách tuyên dương tháng 8</div>
+                <div class="labelredtext">Cấp: Khoang <a href="#" class="bluetext">Vitutoday</a></div>
+
+                <table class="table mt-3">
+                    <thead>
+                        <tr>
+                            <th class="styleTable" style="width: 30%;">Hạng mục</th>
+                            <th class="styleTable">Tên</th>
+                            <th class="styleTable">Hiệu suất</th>
+                            <th class="styleTable">Cuộc gọi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="background-color: #d3791b;">Giải nhất Team</td>
+                            <td>Nguyễn Văn A</td>
+                            <td class="texttable">90%</td>
+                            <td class="texttable">50</td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #d3791b;">Giải nhì team</td>
+                            <td>Trần Thị B</td>
+                            <td class="texttable">85%</td>
+                            <td class="texttable">45</td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #d3791b;">Giải ba Team</td>
+                            <td>Lê Văn C</td>
+                            <td class="texttable">80%</td>
+                            <td class="texttable">60</td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #d3791b;">Giải cá nhân</td>
+                            <td>Lê Văn C</td>
+                            <td class="texttable">80%</td>
+                            <td class="texttable">60</td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #d3791b;">Giải khuyến khích cá nhân</td>
+                            <td>
+                                <div>Lê Văn C</div>
+                                <div>Lê Văn D</div>
+                            </td>
+                            <td class="texttable">80%</td>
+                            <td class="texttable">60</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+        <div class="col-xl-4 col-md-12">
+            <div class="d-flex flex-column align-items-center">
+
+                <div class="labelredtext">Danh sách tuyên dương tháng 8</div>
+                <div class="labelredtext">Cấp: Tổng các khoang tàu</div>
+                <table class="table mt-3" style="font-size: 10px;">
+                    <thead>
+                        <tr>
+                            <th class="styleTable" style="width: 30%;">Hạng mục</th>
+                            <th class="styleTable">Tên</th>
+                            <th class="styleTable">Hiệu suất</th>
+                            <th class="styleTable">Cuộc gọi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="background-color: #d3791b;">Giải nhất Team</td>
+                            <td>Team C - Vivutoday</td>
+                            <td class="texttable">90%</td>
+                            <td class="texttable">50</td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #d3791b;">Giải nhì team</td>
+                            <td>Team A - Techwise</td>
+                            <td class="texttable">85%</td>
+                            <td class="texttable">45</td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #d3791b;">Giải ba Team</td>
+                            <td>Team A - Goilaco</td>
+                            <td class="texttable">80%</td>
+                            <td class="texttable">60</td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #d3791b;">Giải cá nhân</td>
+                            <td>Nguyễn Thị A - Goilaco</td>
+                            <td class="texttable">80%</td>
+                            <td class="texttable">60</td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #d3791b;">Giải khuyến khích cá nhân 1</td>
+                            <td>Nguyễn Thị C - Techwise</td>
+                            <td class="texttable">80%</td>
+                            <td class="texttable">60</td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #d3791b;">Giải khuyến khích cá nhân 2</td>
+                            <td>Nguyễn Thị D - Vivutoday</td>
+                            <td class="texttable">80%</td>
+                            <td class="texttable">60</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+        <div class="col-xl-4 col-md-12">
+            <div class="d-flex flex-column align-items-center">
+
+                <div class="labelredtext mb-5">Vùng biển nguy hiểm</div>
+
+                <div>
+                    <img src="~/assets/img/BG/DangerList.png" style="width: 360px; height: auto;" />
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+@section Scripts
+{
+    <script src="~/js/Home/Page9.js"></script>
+}

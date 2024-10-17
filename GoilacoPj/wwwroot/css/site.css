@@ -1,0 +1,147 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.table
+{
+  background-color: #ffffff;
+  color: #000000 !important;
+  font-weight: 500;
+}
+
+.table thead
+{
+  font-size: 0.8rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table tbody
+{
+  font-size: 0.9rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+table thead th:first-child {
+  background-color: #afd9fb; 
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+table thead th:nth-child(2) {
+  background-color: #35a1f4; 
+  color: #ffffff; 
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+table thead th:nth-child(3) {
+  background-color: #0058aa; 
+  color: #ffffff;  
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+table thead th:nth-child(4) {
+  background-color: #1e8efc; 
+  color: #ffffff;  
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+table thead th:nth-child(5) {
+  background-color: #00669b; 
+  color: #ffffff;  
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+table thead th:nth-child(6) {
+  background-color: #004aad; 
+  color: #ffffff;  
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+table thead th:nth-child(7) {
+  background-color: #002f42; 
+  color: #ffffff;  
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.table-bordered {
+    border: 2px solid red;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 2px solid red; 
+}
+
+.redtext {
+    color: #c10000;
+}
+
+.labelredtext {
+  color: #c10000;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.blacktext {
+  color: #373737;
+  font-weight: bold;
+}
+
+.labelblacktext {
+  color: #373737;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.bluetext {
+  color: #5e17eb;
+}
+
+.labelbluetext {
+  color: #5e17eb;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.whitetext {
+  color: #f0f5f9 !important;
+  font-weight: bold;
+}
+
+.labelwhitetext {
+  color: #f0f5f9 !important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+

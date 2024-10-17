@@ -1,0 +1,15 @@
+﻿.page-background {
+    background-image: url('/assets/img/BG/Anhmemxanh.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 1.5rem;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 2px solid red;
+    color: black ;
+    font-weight: 600;
+}

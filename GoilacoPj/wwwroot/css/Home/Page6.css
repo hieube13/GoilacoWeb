@@ -1,0 +1,103 @@
+﻿.page-background {
+    background-image: url('/assets/img/BG/Anhmemxanh.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 1.5rem;
+}
+
+.account-box {
+    background-color: #f04b16;
+    color: white;
+    padding: 10px 0px 10px 0px;
+    font-size: 13px;
+    width: 90%;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#chartCheckCard .highcharts-background {
+    fill: #ecf8fd;
+}
+
+.rectangle {
+    width: 230px;
+    height: 70px;
+    background-color: #a3e1dc;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);*/
+    overflow: visible !important;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #56cacd;
+    border-radius: 50%;
+    transform: translateX(-30px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabulator-frozen {
+    background-color: white !important;
+}
+
+.tabulator {
+    border: unset !important;
+}
+
+.tabulator .tabulator-footer {
+    padding: 0px !important;
+}
+
+.tabulator-paginator {
+    padding: .5rem .5rem !important;
+}
+
+.tabulator-header {
+    border-radius: 4px;
+    border: 1px solid rgba(26,29,33, 0.07) !important;
+}
+
+.tabulator-frozen {
+    background-color: white !important;
+}
+
+.tabulator .tabulator-alert .tabulator-alert-msg.tabulator-alert-state-msg {
+    border: unset !important;
+    color: unset !important;
+    background-color: unset !important;
+}
+
+.sk-grid {
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.tabulator .tabulator-alert {
+    background: unset !important;
+}
+
+.tabulator-page img {
+    margin-bottom: 2px !important;
+}
+
+.tabulator-page p {
+    color: #005CE8;
+    margin-top: 2px;
+}
+
+.tabulator .tabulator-footer {
+    margin-top: 10px !important;
+}

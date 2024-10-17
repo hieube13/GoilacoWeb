@@ -1,0 +1,258 @@
+﻿
+@section Styles
+{
+    <link href="~/css/Home/Page8.css" rel="stylesheet" />
+}
+
+<div class="page-background">
+
+    @await Html.PartialAsync("~/Views/Shared/_headerNav.cshtml")
+
+    <div class="row mb-3">
+        <div class="col-xl-4">
+            <div class="d-flex align-items-center gap-2">
+
+                <div class="labelblacktext underline-text">dự án</div>
+                <div class="labelwhitetext vivubox">
+                    <a class="labelwhitetext" href="#" style="text-decoration: none;">vivutoday</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-xl-8 col-md-12">
+            <div class="d-flex gap-1 mb-3">
+                <div class="labelredtext">
+                    Theo dõi tiến độ team/ tuần
+                </div>
+
+                <div style="font-size: 1.2em;">
+                    <i class="fa-regular fa-clock"></i>
+                </div>
+
+            </div>
+
+            <table class="table table-bordered" style="text-align: center; vertical-align: middle;">
+                <thead>
+                    <tr>
+                        <th>Hạng mục</th>
+                        <th>Số lượng</th>
+                        <th>Tiến Độ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Số lượng bài đã viết</td>
+                        <td>300</td>
+                        <td class="progressTD d-flex justify-content-center">
+                            <div class="d-flex align-items-center gap-1" style="width: 200px !important;">
+                                <div class="progressBox">
+                                    <div class="progressInput" data-percent="60" data-color="#c10000"></div>
+                                </div>
+                                <div class="fw-bold ms-2" style="color: #f1c116;">60%</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Số lượng bài đã đăng</td>
+                        <td>150</td>
+                        <td class="progressTD d-flex justify-content-center">
+                            <div class="d-flex align-items-center gap-1" style="width: 200px !important; max-width: 100%;">
+                                <div class="progressBox">
+                                    <div class="progressInput" data-percent="60" data-color="#c10000"></div>
+                                </div>
+                                <div class="fw-bold ms-2" style="color: #f1c116;">60%</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Số bài viết đạt top 5</td>
+                        <td>25</td>
+                        <td class="progressTD d-flex justify-content-center">
+                            <div class="d-flex align-items-center gap-1" style="width: 200px !important; max-width: 100%;">
+                                <div class="progressBox">
+                                    <div class="progressInput" data-percent="60" data-color="#c10000"></div>
+                                </div>
+                                <div class="fw-bold ms-2" style="color: #f1c116;">60%</div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-xl-10 col-md-12 ">
+            <div class="d-flex gap-1 mb-3">
+                <div class="labelredtext">
+                    Hiệu suất công việc các thành viên/ tuần
+                </div>
+
+                <div style="font-size: 1.2em;">
+                    <i class="fa-regular fa-clock"></i>
+                </div>
+
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered" style="text-align: center; vertical-align: middle;">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th style="width: 150px;">Tên</th>
+                            <th >Mục tiêu tuần</th>
+                            <th style="width: 15%;">Số lượng bài viết đã viết</th>
+                            <th>Tiến độ</th>
+                            <th>Bài đạt top 1 - 5</th>
+                            <th>Bài đạt top 5 - 10</th>
+                            <th>Bài đạt top 11 -></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Nguyễn Văn A</td>
+                            <td>10</td>
+                            <td>8</td>
+                            <td>
+                                <div class="d-flex align-items-center gap-1" style="width: 120px !important;">
+                                    <div class="progressBox">
+                                        <div class="progressInput" data-percent="60" data-color="#c10000"></div>
+                                    </div>
+                                    <div class="fw-bold ms-2" style="color: #f1c116;">60%</div>
+                                </div>
+                            </td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Trần Thị B</td>
+                            <td>12</td>
+                            <td>9</td>
+                            <td>
+                                <div class="d-flex align-items-center gap-1" style="width: 120px !important;">
+                                    <div class="progressBox">
+                                        <div class="progressInput" data-percent="60" data-color="#c10000"></div>
+                                    </div>
+                                    <div class="fw-bold ms-2" style="color: #f1c116;">60%</div>
+                                </div>
+                            </td>
+                            <td>4</td>
+                            <td>3</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Lê Văn C</td>
+                            <td>8</td>
+                            <td>7</td>
+                            <td>
+                                <div class="d-flex align-items-center gap-1" style="width: 120px !important;">
+                                    <div class="progressBox">
+                                        <div class="progressInput" data-percent="60" data-color="#c10000"></div>
+                                    </div>
+                                    <div class="fw-bold ms-2" style="color: #f1c116;">60%</div>
+                                </div>
+                            </td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>4</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xl-12 col-md-12">
+            <div class="d-flex gap-1 mb-3">
+                <div class="labelredtext">
+                    Theo dõi tiến độ traffic + content từng dự án/ tháng
+                </div>
+
+                <div style="font-size: 1.2em;">
+                    <i class="fa-regular fa-clock"></i>
+                </div>
+
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered" style="text-align: center; vertical-align: middle;">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th class="labelblacktext" style="background-color: #00bf63; width: 15%;">Dự án</th>
+                            <th class="labelwhitetext" style="background-color: #45aaf7;">Mục tiêu dự án</th>
+                            <th class="labelwhitetext" style="background-color: #45aaf7;">Bài chưa đăng</th>
+                            <th class="labelwhitetext" style="background-color: #45aaf7;">Tiến độ</th>
+                            <th class="labelwhitetext" style="background-color: #45aaf7;">Bài đã đăng</th>
+                            <th class="labelwhitetext" style="background-color: #45aaf7;">Bài top 1 - 5</th>
+                            <th class="labelwhitetext" style="background-color: #45aaf7;">Bài top 5 - 10</th>
+                            <th class="labelwhitetext" style="background-color: #45aaf7;">Bài top 11 -></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Vivutoday</td>
+                            <td>100</td>
+                            <td>50</td>
+                            <td>150</td>
+                            <td>
+                                <div class="d-flex align-items-center gap-1" style="width: 120px !important;">
+                                    <div class="progressBox">
+                                        <div class="progressInput" data-percent="60" data-color="#c10000"></div>
+                                    </div>
+                                    <div class="fw-bold ms-2" style="color: #f1c116;">60%</div>
+                                </div>
+                            </td>
+                            <td>5</td>
+                            <td>5</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>CSKH.ORG.VN</td>
+                            <td>100</td>
+                            <td>50</td>
+                            <td>150</td>
+                            <td>
+                                <div class="d-flex align-items-center gap-1" style="width: 120px !important;">
+                                    <div class="progressBox">
+                                        <div class="progressInput" data-percent="60" data-color="#c10000"></div>
+                                    </div>
+                                    <div class="fw-bold ms-2" style="color: #f1c116;">60%</div>
+                                </div>
+                            </td>
+                            <td>5</td>
+                            <td>5</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>IVexe</td>
+                            <td>100</td>
+                            <td>50</td>
+                            <td>150</td>
+                            <td>
+                                <div class="d-flex align-items-center gap-1" style="width: 120px !important;">
+                                    <div class="progressBox">
+                                        <div class="progressInput" data-percent="60" data-color="#c10000"></div>
+                                    </div>
+                                    <div class="fw-bold ms-2" style="color: #f1c116;">60%</div>
+                                </div>
+                            </td>
+                            <td>5</td>
+                            <td>5</td>
+                            <td>5</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+@section Scripts
+{
+    <script src="~/js/Home/Page8.js"></script>
+}

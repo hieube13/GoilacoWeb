@@ -1,0 +1,80 @@
+﻿.page-background {
+    background-image: url('/assets/img/BG/Anhmemxanh.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 1.5rem;
+}
+
+.boxTD {
+    padding: 5px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #f04b16;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.purpleText
+{
+    color: #004aad;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 10px;
+    width: 100%;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 2px solid black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.boxTable1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boxTable3
+{
+    color: #c50f0f !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.6em !important;
+}
+
+
+.boxTable4
+{
+    color: #fefefe !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.6em !important;
+    background-color: #5271ff !important;
+}
+
+.btnCustome
+{
+    padding: 5px 10px;
+    background-color: #f37028;
+    border: 2px solid #a14124;
+    border-radius: 50px;
+}
+
+
+
+
+
+

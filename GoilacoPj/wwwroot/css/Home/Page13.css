@@ -1,0 +1,53 @@
+﻿.page-background {
+    background-image: url('/assets/img/BG/Anhmemxanh.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 1.5rem;
+}
+
+.purpletext {
+    color: #002c5c;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.pingBoxOnline {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #46d832;
+}
+
+.pingBoxOffline {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ef4136;
+}
+
+.xemTrcBg {
+    background-image: url('/assets/img/BG/14.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.xemTrcContent {
+    word-wrap: break-word;
+    width: calc(28vw - 25px);
+}
+
+.large-checkbox
+{
+    transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+}

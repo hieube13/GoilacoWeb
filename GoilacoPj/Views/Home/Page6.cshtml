@@ -1,0 +1,164 @@
+﻿
+@section Styles
+{
+    <link href="~/css/Home/Page6.css" rel="stylesheet" />
+
+}
+
+<div class="page-background">
+       
+    @await Html.PartialAsync("~/Views/Shared/_headerNav.cshtml")
+
+    <div class="row">
+
+        <div class="col-xl-6 col-md-12">
+
+            <div class="d-flex gap-1 mt-3">
+                <div class="labelredtext">
+                    Việc cần làm từng bạn/tuần
+                </div>
+                <div style="font-size: 1.2em;">
+                    <i class="fa-regular fa-clock"></i>
+                </div>
+            </div>
+
+            <table class="table table-bordered mt-3" style="font-size: 14px;text-align: center; vertical-align: middle;">
+                <thead>
+                    <tr>
+                        <th class="labelblacktext" style="background-color: #afd9fb;">Tên</th>
+                        <th class="labelwhitetext" style="background-color: #35a1f4;">Task Việc</th>
+                        <th class="labelwhitetext" style="background-color: #00669b;">Số Lượng</th>
+                        <th class="labelwhitetext" style="background-color: #002c5c;">Tiến Độ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="labelblacktext">Chị trâm</td>
+                        <td>Chăm sóc Maps</td>
+                        <td>5</td>
+                        <td>
+                            <div class="d-flex align-items-center gap-1" style="width: 150px !important; max-width: 100%;">
+                                <div class="progressBox">
+                                    <div class="progressInput" data-percent="60" data-color="#f1c116"></div>
+                                </div>
+                                <div class="fw-bold ms-2" style="color: #f1c116;">60%</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="labelblacktext">Quỳnh</td>
+                        <td>Call Maps</td>
+                        <td>10</td>
+                        <td>
+                            <div class="d-flex align-items-center gap-1" style="width: 150px !important; max-width: 100%;">
+                                <div class="progressBox">
+                                    <div class="progressInput" data-percent="60" data-color="#f1c116"></div>
+                                </div>
+                                <div class="fw-bold ms-2" style="color: #f1c116;">60%</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="labelblacktext">Ngọc</td>
+                        <td>Tạo Maps</td>
+                        <td>15</td>
+                        <td>
+                            <div class="d-flex align-items-center gap-1" style="width: 150px !important; max-width: 100%;">
+                                <div class="progressBox">
+                                    <div class="progressInput" data-percent="60" data-color="#f1c116"></div>
+                                </div>
+                                <div class="fw-bold ms-2" style="color: #f1c116;">60%</div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-xl-7 col-md-12">
+            <div class="mt-5">
+                <div class="d-flex gap-1 mt-3">
+                    <div class="labelredtext">
+                        Tiến độ seo top từ khoá
+                    </div>
+                    <div style="font-size: 1.2em;">
+                        <i class="fa-regular fa-clock"></i>
+                    </div>
+                </div>
+
+                <table class="table table-bordered mt-3" style="font-size: 14px;text-align: center; vertical-align: middle;">
+                    <thead>
+                        <tr>
+                            <th class="labelblacktext" style="background-color: #afd9fb;">Dự án</th>
+                            <th class="labelwhitetext" style="background-color: #35a1f4;">Tiến độ</th>
+                            <th class="labelwhitetext" style="background-color: #00669b;">Số Lượng key</th>
+                            <th class="labelwhitetext" style="background-color: #002c5c;">Dealine</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="labelblacktext">Alaska</td>
+                            <td>
+                                <div class="progressBox">
+                                    <div class="progressInput" data-percent="60" data-color="#f1c116"></div>
+                                </div>
+                            </td>
+                            <td>3</td>
+                            <td>12/1/2025</td>
+                        </tr>
+                        <tr>
+                            <td class="labelblacktext">Alaska</td>
+                            <td>
+                                <div class="progressBox">
+                                    <div class="progressInput" data-percent="60" data-color="#f1c116"></div>
+                                </div>
+                            </td>
+                            <td>3</td>
+                            <td>12/1/2025</td>
+                        </tr>
+                        <tr>
+                            <td class="labelblacktext">Alaska</td>
+                            <td>
+                                <div class="progressBox">
+                                    <div class="progressInput" data-percent="60" data-color="#f1c116"></div>
+                                </div>
+                            </td>
+                            <td>3</td>
+                            <td>12/1/2025</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="col-xl-5 col-md-12">
+            <div class="d-flex justify-content-center">
+                <div id="chartDoanhThu" style="width: 300px; height: 400px;"></div>
+            </div>
+
+            <div class="d-flex justify-content-center gap-1 mt-3">
+                <div class="labelredtext">
+                    Doanh thu 3 tháng gần nhất
+                </div>
+
+                <div style="font-size: 1.2em;">
+                    <i class="fa-regular fa-clock"></i>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+@section Scripts
+{
+    <script src="~/js/Home/Page6.js"></script>
+}

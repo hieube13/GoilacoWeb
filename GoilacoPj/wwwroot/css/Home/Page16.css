@@ -1,0 +1,85 @@
+﻿.page-background {
+    background-image: url('/assets/img/BG/Anhmemxanh.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 1.5rem;
+}
+
+.boxTD {
+    padding: 5px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #f04b16;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.cardNode
+{
+    width: 20px;
+    height: 20px;
+    background-color: #fcbb65;
+    border-radius: 50%;
+}
+
+.redNormaltext
+{
+    color: #c10000;
+    font-weight: bold;
+}
+
+.boxExam
+{
+    padding: 10px 10px;
+    background-color: #bfe4ff;
+    border-radius: 50px;
+}
+
+.card-header
+{
+    padding: 5px 1rem !important;
+}
+
+@media (max-width: 1365px) {
+    .labelredtext
+    {
+        font-size: 1.2rem !important;
+    }
+
+    .redNormaltext
+    {
+        font-size: 1.2rem !important;
+    }
+
+    .blacktext
+    {
+        font-size: 1.2rem !important;
+    }
+}
+
+@media (max-width: 1000px) {
+    .labelredtext
+    {
+        font-size: 1rem !important;
+    }
+
+    .redNormaltext
+    {
+        font-size: 1rem !important;
+    }
+
+    .blacktext
+    {
+        font-size: 1rem !important;
+    }
+}
+
+
+
+
+

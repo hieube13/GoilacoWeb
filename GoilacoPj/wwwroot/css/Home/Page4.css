@@ -1,0 +1,133 @@
+﻿.page-background {
+    background-image: url('/assets/img/BG/Anhmemxanh.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 1.5rem;
+}
+
+.team-column {
+    background-color: #fffbf6 !important;
+    font-size: 1rem !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000000 !important;
+}
+
+.kpi-column {
+    background-color: #fbfbfa !important;
+    color: #000000 !important;
+}
+
+.power-column {
+    background-color: #fbfbfa !important;
+    font-size: 0.7rem;
+    color: #000000 !important;
+}
+
+.containerBox {
+    display: flex;
+    width: 100%;
+    gap: 0;
+}
+
+.boxItem {
+    /*margin-right: -1px;*/ 
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxContent {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 100%;
+    border-radius: 8px 0 0 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.boxItem:last-child .boxContent {
+    border-radius: 0 8px 8px 0; 
+}
+
+.boxNote {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
+
+#chartCheckCard .highcharts-background {
+    fill: rgba(255, 255, 255, 0.5);
+}
+
+.rectangle {
+    width: 230px;
+    height: 70px;
+    background-color: #a3e1dc;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);
+    overflow: visible !important;*/
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #56cacd;
+    border-radius: 50%;
+    transform: translateX(-30px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .rectangle {
+        width: 230px;
+        height: 70px;
+    }
+
+    .circle {
+        width: 100px;
+        height: 100px;
+        transform: translateX(-30px);
+    }
+}
+
+@media (max-width: 768px) {
+    .rectangle {
+        width: 200px; 
+        height: 50px;
+    }
+
+    .circle {
+        width: 80px; 
+        height: 80px;
+        transform: translateX(-20px);
+    }
+}
+
+@media (max-width: 576px) {
+    .rectangle {
+        width: 120px;
+        height: 40px;
+    }
+
+    .circle {
+        width: 50px;
+        height: 50px;
+        transform: translateX(-10px);
+        font-size: 9px !important;
+    }
+}
+

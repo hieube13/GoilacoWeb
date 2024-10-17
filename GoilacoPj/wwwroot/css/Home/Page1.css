@@ -1,0 +1,134 @@
+﻿.b1-background {
+    background-image: url('/image/background/Anhmemxanh.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100vw; 
+    min-height: 100vh; 
+}
+
+.letterBg
+{
+    background-image: url('/image/Others/14.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 10vw;
+    height: 20vh;
+    margin-left: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letterBgContent
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.redNormalText
+{
+    color: #c10000;
+    font-weight: bold;
+}
+
+.boxThoiTiet
+{
+    display: flex; 
+    justify-content: center;
+    padding: 5px 5px;
+    /* width: 200px; */
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.DaoRuaBg
+{
+    background-image: url('/image/Dao/7.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 10vw;
+    height: 10vh;
+    /* margin-left: 250px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DaoRuaContent
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #c10000;
+    font-weight: bold;
+}
+
+.dao12
+{
+    position: relative;
+}
+
+.co12
+{
+    position: absolute;
+    top: 115px;
+    left: 374px;
+}
+
+.text12
+{
+    position: absolute;
+    top: 124px;
+    left: 507px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dao11
+{
+    position: relative;
+}
+
+.co11
+{
+    position: absolute;
+    top: 149px;
+    left: 623px;
+}
+
+.text11
+{
+    position: absolute;
+    top: 158px;
+    left: 740px;
+}
+
+.dao10
+{
+    position: relative;
+}
+
+.co10
+{
+    position: absolute;
+    top: 239px;
+    left: 918px;
+}
+
+.text10
+{
+    position: absolute;
+    top: 189px;
+    left: 898px;
+}
+
+
+
+

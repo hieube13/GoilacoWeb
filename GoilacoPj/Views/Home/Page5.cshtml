@@ -1,0 +1,393 @@
+﻿
+@section Styles
+{
+    <link href="~/css/Home/Page5.css" rel="stylesheet" />
+}
+
+
+<div class="page-background">
+
+    @await Html.PartialAsync("~/Views/Shared/_headerNav.cshtml")
+
+    <div class="row">
+
+        <div class="col-xl-5 col-md-12">
+
+            <div class="d-flex">
+                <div class="labelredtext">Top 10 kết quả đặt vé cao nhất</div>
+                <div style="font-size: 1.2em;">
+                    <i class="fa-regular fa-clock"></i>
+                </div>
+            </div>
+
+            <div class="d-flex mt-2">
+
+                <div class="d-flex align-items-center gap-3">
+                    <div class="d-flex justify-content-center align-items-center gap-1">
+                        <img src="~/assets/img/icon/IconTeam/TeamViVu.png" style="width: 30px; height: auto;" />
+                        <span>:</span>
+                        <img src="~/assets/img/icon/IconTeam/ColorTeamViVu.png" style="width: 50px; height: auto;" />
+                    </div>
+
+                    <div class="d-flex justify-content-center align-items-center gap-1">
+                        <img src="~/assets/img/icon/IconTeam/TeamGoilaco.png" style="width: 30px; height: auto;" />
+                        <span>:</span>
+                        <img src="~/assets/img/icon/IconTeam/ColorTeamGoilaco.png" style="width: 50px; height: auto;" />
+                    </div>
+
+                    <div class="d-flex justify-content-center align-items-center gap-1">
+                        <img src="~/assets/img/icon/IconTeam/TeamTechWise.png" style="width: 30px; height: auto;" />
+                        <span>:</span>
+                        <img src="~/assets/img/icon/IconTeam/ColorTeamTechWise.png" style="width: 50px; height: auto;" />
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="mt-4" style="font-size: 0.8rem; width: 90%;">
+                <table class="table table-bordered table-striped" style="text-align: center; vertical-align: middle;">
+                    <thead>
+                        <tr>
+                            <th style="background-color: #ffffff !important; color: black !important;">Tên</th>
+                            <th style="background-color: #ffffff !important; color: black !important;">Lượng vé</th>
+                            <th style="background-color: #ffffff !important; color: black !important;">Thành tiền</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="colorVV">lê thị xuân</td>
+                            <td>450</td>
+                            <td>5.000.000 VND</td>
+                        </tr>
+                        <tr>
+                            <td class="colorGLC">Mai thị cẩm hồng</td>
+                            <td>300</td>
+                            <td>5.900.000 VND</td>
+                        </tr>
+                        <tr>
+                            <td class="colorTW">Tổng thị tài</td>
+                            <td>300</td>
+                            <td>5.900.000 VND</td>
+                        </tr>
+                        <tr>
+                            <td class="colorVV">Chế T.Kiều Phương</td>
+                            <td>300</td>
+                            <td>5.900.000 VND</td>
+                        </tr>
+                        <tr>
+                            <td class="colorGLC">Mai Xuân Thọ</td>
+                            <td>300</td>
+                            <td>5.900.000 VND</td>
+                        </tr>
+                        <tr>
+                            <td class="colorTW">Trần xuân quỳnh</td>
+                            <td>300</td>
+                            <td>5.900.000 VND</td>
+                        </tr>
+                        <tr>
+                            <td class="colorVV">tống quế anh</td>
+                            <td>300</td>
+                            <td>5.900.000 VND</td>
+                        </tr>
+                        <tr>
+                            <td class="colorGLC">đoàn kim thuý</td>
+                            <td>300</td>
+                            <td>5.900.000 VND</td>
+                        </tr>
+                        <tr>
+                            <td class="colorTW">hoàng nguyệt thảo</td>
+                            <td>300</td>
+                            <td>5.900.000 VND</td>
+                        </tr>
+                        <tr>
+                            <td class="colorVV">đặng thị mai</td>
+                            <td>300</td>
+                            <td>5.900.000 VND</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="mt-4" >
+                <div class="d-flex gap-2 justify-content-start mb-3" style="margin-bottom: 300px;">
+                    <div class="labelredtext">kết quả cá nhân</div>
+                    <div style="font-size: 1.2em;">
+                        <i class="fa-regular fa-clock"></i>
+                    </div>
+                </div>
+
+                <table class="table table-bordered" style="width: 100%; font-size: 0.8rem;">
+                    <thead>
+                        <tr>
+                            <th>Ngày</th>
+                            <th>Tuần</th>
+                            <th>Tháng</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Số vé: 200</td>
+                            <td>Số vé: 1.400</td>
+                            <td>Số vé: 6.000</td>
+                        </tr>
+                        <tr>
+                            <td>Hiệu suất: 53%</td>
+                            <td>Hiệu suất: 53%</td>
+                            <td>Hiệu suất: 53%</td>
+                        </tr>
+                        <tr>
+                            <td>Số cuộc gọi nhận: 100</td>
+                            <td>Số cuộc gọi nhận: 750</td>
+                            <td>Số cuộc gọi nhận: 2.400</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+
+        <div class="col-xl-7 col-md-12">
+               
+            <div class="row">
+
+                <div class="col-xl-4 col-md-6 mb-3">
+
+                    <div class="d-flex flex-column align-items-center justify-content-center">
+
+                        <div class="d-flex gap-2 justify-content-center">
+                            <div class="labelredtext">công ty</div>
+                            <div style="font-size: 1.2em;">
+                                <i class="fa-regular fa-clock"></i>
+                            </div>
+                        </div>
+
+                        <div class="note-box">
+                            <div class="note-title">Mục tiêu</div>
+
+                            <div class="note-content">
+                                <div class="d-flex flex-column justify-content-center align-items-center mt-3">
+                                    <div style="font-weight: bold;" ">Số vé đạt được</div>
+                                    <div style="color: #634dff; font-weight: bold;">25.000 vé</div>
+                                </div>
+
+                                <div class="progressBox">
+                                    <div class="progressInput" data-percent="60" data-color="#1964cf"></div>
+                                </div>
+
+                                <div class="labelredtext mt-2" style="font-size: 1em !important;">
+                                    60% <span style="color: #634dff; font-weight: bold;">>> 20000 vé</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="col-xl-4 col-md-6">
+
+                    <div class="d-flex flex-column align-items-center justify-content-center">
+
+                        <div class="d-flex gap-2 justify-content-center">
+                            <div class="labelredtext">cơ sở</div>
+                            <div style="font-size: 1.2em;">
+                                <i class="fa-regular fa-clock"></i>
+                            </div>
+                        </div>
+
+                        <div class="note-box">
+                            <div class="note-title">Mục tiêu</div>
+
+                            <div class="note-content">
+                                <div class="d-flex flex-column justify-content-center align-items-center mt-3">
+                                    <div style="font-weight: bold;" ">Số vé đạt được</div>
+                                    <div style="color: #634dff; font-weight: bold;">25.000 vé</div>
+                                </div>
+
+                                <div class="progressBox">
+                                    <div class="progressInput" data-percent="60" data-color="#1964cf"></div>
+                                </div>
+
+                                <div class="labelredtext mt-2" style="font-size: 1em !important;">
+                                    60% <span style="color: #634dff; font-weight: bold;">>> 20000 vé</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-xl-4 col-md-12">
+
+                    <div class="d-flex justify-content-center mt-5">
+                        <div class="labelredtext">Thông báo từ các thuỷ thủ đoàn!</div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row justify-content-center mt-4" style="font-size: 12px;">
+
+                <table class="table table-bordered" style="width: 70%;">
+                    <tbody>
+                        <tr>
+                            <td class="labelblacktext" rowspan="2" style="text-align: center; vertical-align: middle; font-size: 1rem;">Thời gian làm việc</td>
+                            <td class="checkin d-flex gap-2 justify-content-center align-items-center blacktext" style="text-align: center; vertical-align: middle;">
+                                <div class="labelblacktext">Checkin</div>
+                                <input id="checkInSwitch" class="form-check-input" type="checkbox" role="switch">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="checkout d-flex gap-2 justify-content-center align-items-center blacktext" style="text-align: center; vertical-align: middle;">
+                                <div class="labelblacktext">Checkout</div>
+                                <input id="checkOutSwitch" class="form-check-input" type="checkbox" role="switch">
+                            </td>
+                        </tr>
+                        <tr>
+                            <!--style="padding-top: 0 !important; padding-bottom: 0 !important"-->
+                            <td style="padding-top: 0 !important; padding-bottom: 0 !important">
+                                <div class="trBox">
+                                    <div class="trContent">Công việc riêng</div>
+                                    <div class="trContent">2</div>
+                                    <div class="trContentEnd">00:10:00</div>
+                                </div>
+                            </td>
+                            <td class="checkout d-flex gap-2 justify-content-center align-items-center" style="text-align: center; vertical-align: middle;">
+                                <div class="redtext">03:00</div>
+                                <input id="timeSwitch" class="form-check-input" type="checkbox" role="switch">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+            </div>
+
+            <div class="row flex-column align-items-center mt-3">
+
+                <div class="d-flex gap-2 mb-3" style="width: 70%;">
+                    <div class="labelredtext">hiệu suất tuần của team</div>
+                    <div style="font-size: 1.2em;">
+                        <i class="fa-regular fa-clock"></i>
+                    </div>
+                </div>
+
+                <table class="table table-bordered" style="width: 80%; text-align: center; font-size: 0.8rem;">
+                    <thead>
+                        <tr>
+                            <th>Tên</th>
+                            <th>Hiệu suất cá nhân</th>
+                            <th>Hiệu suất trung bình team</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Thị yến</td>
+                            <td>65%</td>
+                            <td rowspan="5" style="vertical-align: middle;">
+                                <div class="labelredtext" style="font-size: 2.5rem !important;">55%</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>hạ nhiên</td>
+                            <td>55%</td>
+                        </tr>
+                        <tr>
+                            <td>quỳnh hoa</td>
+                            <td>55%</td>
+                        </tr>
+                        <tr>
+                            <td>thuỳ tiên</td>
+                            <td>45%</td>
+                        </tr>
+                        <tr>
+                            <td>xuân quỳnh</td>
+                            <td>50%</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+            </div>
+
+            <div class="d-flex justify-content-center align-items-center mt-3">
+
+                <div class="">
+
+                    <div class="d-flex align-items-center mb-2">
+
+                        <div class="blacktext text-left" style="width: 110px;">Thuỳ Tiên</div>
+                        <div class="progressBox mx-2" style="width: 100px !important">
+                            <div class="progressInput" data-percent="60" data-color="#c10000"></div>
+                        </div>
+                        <div class="blacktext" style="width: 100px;">30 vé</div>
+
+                    </div>
+
+                    <div class="d-flex align-items-center mb-2">
+
+                        <div class="blacktext text-left" style="width: 110px;">Xuân Quỳnh</div>
+                        <div class="progressBox mx-2" style="width: 100px !important">
+                            <div class="progressInput" data-percent="60" data-color="#c5e071"></div>
+                        </div>
+                        <div class="blacktext" style="width: 100px;">50 vé</div>
+
+                    </div>
+
+                    <div class="d-flex align-items-center mb-2">
+
+                        <div class="blacktext text-left" style="width: 110px;">Quỳnh Hoa</div>
+                        <div class="progressBox mx-2" style="width: 100px !important">
+                            <div class="progressInput" data-percent="60" data-color="#fbce40"></div>
+                        </div>
+                        <div class="blacktext" style="width: 100px;">70 vé</div>
+
+                    </div>
+
+                    <div class="d-flex align-items-center mb-2">
+
+                        <div class="blacktext text-left" style="width: 110px;">Hạ Nhiên</div>
+                        <div class="progressBox mx-2" style="width: 100px !important">
+                            <div class="progressInput" data-percent="60" data-color="#f64138"></div>
+                        </div>
+                        <div class="blacktext" style="width: 100px;">90 vé</div>
+
+                    </div>
+
+                    <div class="d-flex align-items-center mb-2">
+
+                        <div class="blacktext text-left" style="width: 110px;">Thị Yến</div>
+                        <div class="progressBox mx-2" style="width: 100px !important">
+                            <div class="progressInput" data-percent="60" data-color="#8fccf2"></div>
+                        </div>
+                        <div class="blacktext" style="width: 100px;">1300 vé</div>
+
+                    </div>
+
+                </div>
+
+                <div>
+                    <div class="equalSign mb-3"></div>
+                    <div class="equalSign"></div>
+                </div>
+
+                <div class="circle" style="background-color: #5271ff !important;">
+                    <div class="labelwhitetext">360 vé</div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</div>
+
+@section Scripts
+{
+    <script src="~/js/Home/Page5.js"></script>
+}
+
+          

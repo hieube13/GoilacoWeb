@@ -1,0 +1,198 @@
+﻿
+.page-background {
+    background-image: url('/assets/img/BG/Anhmemxanh.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 1.5rem;
+}
+
+.checkout {
+    border: none !important;
+    box-shadow: none;
+}
+
+.checkin {
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+}
+
+.trBox {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.trContent {
+    border-right: 2px solid red;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trContentEnd {
+    border-right: 0px solid red;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trBox:nth-child(1) {
+    flex: 2;
+}
+
+.trBox:nth-child(2) {
+    flex: 1;
+}
+
+.redtext1 {
+    color: #c10000;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.labletext1 {
+    color: #000000;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.colorVV {
+    background-color: #db8c24 !important;
+    color: #f1f2fa !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.colorGLC {
+    background-color: #45aaf7 !important;
+    color: #f1f2fa !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.colorTW {
+    background-color: #5271ff !important;
+    color: #f1f2fa !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.labelMT {
+    width: 90px;
+    height: 30px;
+    background-color: #004aad;
+    display: flex;
+    color: #f5f4f3;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+}
+
+.divContentMT {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.switchery {
+    width: 40px !important; 
+}
+
+.note-box {
+    background-image: url('/assets/img/BG/bg-item.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 180px;
+    /*max-width: 100px;*/
+    height: auto;
+    aspect-ratio: 1 / 1;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.note-content {
+    /*margin-top: 10px;*/
+}
+
+.note-title {
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+.boxVe
+{
+    height: 10px;
+    width: 50px;
+}
+
+.equalSign {
+    width: 50px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: #5271ff;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #56cacd;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+@media (max-width: 576px) {
+    .circle {
+        width: 50px;
+        height: 50px;
+        font-size: 9px !important;
+        margin-left: 10px;
+    }
+
+    .equalSign
+    {
+        width: 30px;
+        height: 10px;
+    }
+
+    .blacktext
+    {
+        font-size: 0.8rem;
+    }
+
+    .progressBox
+    {
+        height: 12px;
+    }
+
+    .progressInput
+    {
+        height: 12px;
+    }
+}

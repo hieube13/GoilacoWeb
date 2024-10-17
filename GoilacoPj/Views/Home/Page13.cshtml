@@ -1,0 +1,207 @@
+﻿
+@section Styles
+{
+    <link href="~/css/Home/Page13.css" rel="stylesheet" />
+}
+
+<div class="page-background">
+
+    @await Html.PartialAsync("~/Views/Shared/_headerNav.cshtml")
+
+    <div class="row">
+
+        <div class="col-xl-3 col-md-12">
+            <div class="labelredtext" style="font-size: 1.2rem;"><span>> </span>nhiệm vụ</div>
+            <div class="mt-2 labelredtext">ghi chú:</div>
+            <div class="">
+                Chậm Dealine > Ô màu đỏ ><span class="redtext"> Trừ 50đ</span>
+            </div>
+        </div>
+
+        <div class="col-xl-9 col-md-12">
+            <table class="table table-bordered mt-3">
+                <thead class="thead-light">
+                    <tr>
+                        <th>Nhiệm vụ</th>
+                        <th>Deadline</th>
+                        <th>Tình trạng hoàn thành</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Hoàn thành video traning</td>
+                        <td>
+                            <div class="d-flex justify-content-center gap-2">
+
+                                <div style="font-size: 1.2em;">
+                                    <i class="fa-regular fa-clock"></i>
+                                </div>
+
+                                <div class="blacktext">
+                                    1/10/2024
+                                </div>
+
+                            </div>
+                        </td>
+                        <td><input type="checkbox" class="large-checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>tăng cường thêm ca 7h</td>
+                        <td>
+                            <div class="d-flex justify-content-center gap-2">
+
+                                <div style="font-size: 1.2em;">
+                                    <i class="fa-regular fa-clock"></i>
+                                </div>
+
+                                <div class="blacktext">
+                                    1/10/2024
+                                </div>
+
+                            </div>
+                        </td>
+                        <td><input type="checkbox" class="large-checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>Check tin nhắn điện thoại</td>
+                        <td>
+                            <div class="d-flex justify-content-center gap-2">
+
+                                <div style="font-size: 1.2em;">
+                                    <i class="fa-regular fa-clock"></i>
+                                </div>
+
+                                <div class="blacktext">
+                                    1/10/2024
+                                </div>
+
+                            </div>
+                        </td>
+                        <td><input type="checkbox" class="large-checkbox"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-xl-12">
+            <div class="labelredtext" style="font-size: 1.2rem;"><span>>> </span>liên lạc</div>
+            <div class="purpletext mt-2" style="font-size: 1.2rem !important;">
+                Time : 4:00:00
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xl-6 col-md-12">
+            <div class="row mb-5">
+                <div class="col-xl-3 col-md-2">
+                    <div class="purpletext" style="font-size: 1.2rem !important;">Soạn thư: </div>
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <div>Online:</div>
+                        <div class="pingBoxOnline"></div>
+                    </div>
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <div>Offline:</div>
+                        <div class="pingBoxOffline"></div>
+                    </div>
+                </div>
+
+                <div class="col-xl-9 col-md-10">
+                    <img src="~/assets/img/BG/bg-sidenav.png" style="width: 100%; height: auto;">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-3 col-md-3">
+                    <div class="d-flex align-items-center">
+                        <div class="purpletext" style="font-size: 1.2rem !important;">Xem trước: </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-9 col-md-9 mb-md-4">
+                    <div class="xemTrcBg">
+                        <div class="xemTrcContent">
+                            <p>Kính gửi anh/chị [Tên sếp]</p>
+                            <p>
+                                Tôi xin gửi đến anh/chị một số ý kiến về tình trạng thời gian
+                                làm việc và lương hiện tại của nhân viên công ty
+                            </p>
+                            <p>
+                                Thời gian làm việc: Tôi nhận thấy rằng các dự án gần đây đang yêu
+                                cầu nhân viên làm việc ngoài giờ thường xuyên hơn so với trước đây.Điều này
+                                ngoài có thể ảnh hưởng đến sự cân bằng về công việc và cuộc sống cá nhân của
+                                nhân viên. Tôi đề nghị công ty xem xét các biện pháp để dảm bảo sự cân bằng này,
+                                như đánh giá lại phân công công việc hoặc cung cấp hỗ trợ thêm cho nhân viên
+                                khi cần thiết
+                            </p>
+                            
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-6 col-md-12">
+            <div class="d-flex flex-column align-items-center">
+
+                <div class="labelredtext" style="font-size: 1.8em;">bảng điểm bị trừ khi liên lạc</div>
+
+                <table class="table table-bordered mt-3">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>Team</th>
+                            <th>Tên</th>
+                            <th>Thang điểm trừ</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="labelblacktext">Chỉ huy phó</td>
+                            <td>
+                                <div>Mỹ Linh (Cs1)</div>
+                                <div>Huyền Tâm (Cs3)</div>
+                                <div>Ngọc Thư (Cs4)</div>
+                            </td>
+                            <td class="labelredtext">50 điểm</td>
+                        </tr>
+                        <tr>
+                            <td class="labelblacktext">Chỉ huy trưởng</td>
+                            <td>
+                                <div>Hùng Cường</div>
+                            </td>
+                            <td class="labelredtext">100 điểm</td>
+                        </tr>
+                        <tr>
+                            <td class="labelblacktext">Thuyền trưởng</td>
+                            <td>
+                                <div>Văn Ninh</div>
+                            </td>
+                            <td class="labelredtext">150 điểm</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="align-self-start">
+
+                    <div class="labelredtext">Lưu ý: </div>
+                    <div class="blacktext">
+                        <div>1. Chỉ được gửi hòm thư khi người nhận đang Online</div>
+                        <div>2. Thư sẽ được tiếp nhận trong vòng 4h</div>
+                        <div>Sau 4h, người tiếp nhận sẽ bị trừ điểm tương đương</div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+@section Scripts
+{
+    <script src="~/js/Home/Page13.js"></script>
+}

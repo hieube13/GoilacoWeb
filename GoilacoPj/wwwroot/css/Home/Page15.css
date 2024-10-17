@@ -1,0 +1,68 @@
+﻿.page-background {
+    background-image: url('/assets/img/BG/Anhmemxanh.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 1.5rem;
+}
+
+
+.b1-container {
+    width: 95%;
+}
+
+.search-container {
+    position: relative;
+    max-width: 600px; 
+}
+
+.search-input {
+    width: 100%;
+    padding: 6px 40px 6px 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    text-indent: 20px;
+}
+
+.search-input:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); 
+}
+
+.search-button {
+    position: absolute;
+    left: 10px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    background: none; 
+    border: none; 
+    cursor: pointer; 
+}
+
+.search-button i {
+    font-size: 1.2em; 
+    color: #007bff; 
+}
+
+.boxText
+{
+    display: flex; 
+    justify-content: center;
+    padding: 5px 0px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.cardNode
+{
+    width: 20px;
+    height: 20px;
+    background-color: #fcbb65;
+    border-radius: 50%;
+}
+
+
+
