@@ -99,7 +99,22 @@ namespace GoilacoPj.Controllers
             return View();
         }
 
-        public IActionResult Page17()
+        public IActionResult Page18()
+        {
+            return View();
+        }
+
+         public IActionResult Page19()
+        {
+            return View();
+        }
+
+         public IActionResult Page20()
+        {
+            return View();
+        }
+
+         public IActionResult Page21()
         {
             return View();
         }

@@ -1,0 +1,37 @@
+﻿.page-background {
+    background-image: url('/assets/img/BG/Anhmemxanh.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    /*min-width: 100vw;*/
+    padding: 1.5rem;
+    overflow-x: auto;
+}
+
+#element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 3000px;
+}
+
+
+.node-title-lv1 {
+    font-weight: bold;
+    color: blue;
+}
+.node-content-lv1 {
+    color: gray;
+}
+
+.shape
+{
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
+a{
+    padding: 0 !important;
+}

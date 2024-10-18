@@ -1,0 +1,41 @@
+﻿.page-background {
+    background-image: url('/assets/img/BG/Anhmemxanh.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 1.5rem;
+}
+
+.table thead
+{
+  font-size: 1rem !important;
+}
+
+.table tbody
+{
+  text-align: start !important;
+}
+
+.table td:first-child {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.7rem !important;
+}
+
+.table td:nth-child(2) {
+    text-transform: uppercase;
+    font-size: 0.7rem !important;
+}
+
+.table td:nth-child(3) {
+    font-size: 0.8rem !important;
+}
+
+.textTitle
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #004aad;
+}

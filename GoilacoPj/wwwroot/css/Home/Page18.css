@@ -1,0 +1,161 @@
+﻿.page-background {
+    background-image: url('/assets/img/BG/Anhmemxanh.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 1.5rem;
+}
+
+#chart-container {
+    font-family: Arial;
+    border: 2px solid #aaa;
+    border-radius: 5px;
+    overflow: auto;
+    text-align: center;
+    height: 100vh;
+}
+  
+.orgchart {
+background: #fff; 
+}
+.orgchart td.left, .orgchart td.right, .orgchart td.top {
+border-color: #aaa;
+}
+.orgchart td>.down {
+background-color: #aaa;
+}
+
+.orgchart .node {
+    border-radius: 10px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.orgchart .node .title {
+    max-width: 300px !important;
+    display: flex;
+    justify-content: center;
+    text-wrap: wrap;
+    align-items: center;
+    height: auto !important;
+}
+
+.orgchart .node .content {
+    max-width: 300px !important;
+    display: flex;
+    justify-content: center;
+    text-wrap: wrap;
+    align-items: center;
+    height: auto !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.textTitle
+{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.orgchart .no-content .content
+{
+    display: none;
+}
+
+.orgchart .nodeItem .content
+{
+    display: none;
+}
+
+.nodeItem > .title
+{
+    min-height: 40px;
+    line-height: 40px;
+}
+
+.orgchart .nodeGreen .title {
+    background-color: #66e869;
+    color: #7e2728;
+}
+
+.orgchart .nodeYellow .title {
+    background-color: #fffdc5;
+    color: #ff221c;
+}
+
+.orgchart .nodeRed .title {
+    background-color: #ff602e;
+    color: #ffffff;
+}
+
+.orgchart .nodeOrgan .title {
+    background-color: #e1801f;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.orgchart .nodePink .title {
+    background-color: #fbd5c0;
+    color: #1d74ec;
+    text-transform: uppercase;
+}
+
+.orgchart .nodeGreen1 .title {
+    background-color: #dbfff1;
+    color: #ff2479;
+    text-transform: uppercase;
+}
+
+.orgchart .nodeBlue .title {
+    background-color: #bfe4ff;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.orgchart .nodeBlue1 .title {
+    background-color: #0058aa;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.orgchart .nodeBlue2 .title {
+    background-color: #22a9ff;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.orgchart .nodePink1 .title {
+    background-color: #ffeef8;
+    color: #0e6ff2;
+    text-transform: uppercase;
+}
+
+/* .orgchart .no-hierarchy .hierarchy
+{
+    position: initial !important;
+} */
+
+.orgchart .no-hierarchy .hierarchy::before
+{
+    position: unset !important;
+}
+
+/* .vertical-nodes::before  {
+    position: unset !important;
+} */
+
+li.hierarchy > .vertical-nodes {
+    position:  unset !important;
+}
+
+.vertical-nodes + ul.nodes {
+   display: block !important;
+}
+
+.vertical-nodes + ul.nodes li
+{
+    position: unset !important;
+} 
+
