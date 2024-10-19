@@ -9,18 +9,18 @@
 
 .ellipse-container {
     position: relative;
-    width: 800px;
-    height: 200px;
+    width: 800px; 
+    height: 200px; 
     margin: 50px 80px;
-    border-radius: 50%;
+    border-radius: 50%; 
     margin-top: 100px;
 }
 
 .month img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    transform: rotate(calc(-30deg * var(--i)));
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+    transform: rotate(calc(-30deg * var(--i))); 
 }
 
 #month1 {
@@ -33,15 +33,15 @@
     transform: rotate(calc(30deg * var(--i))) translate(200px, 100px);
 }
 
-    #month1 .text {
-        /*width: 90px;*/
-        font-size: 0.6rem;
-        transform: rotate(0deg);
-        position: absolute;
-        top: 14%;
-        left: -51%;
-        transform: translate(-19%, 41%) rotate(180deg);
-    }
+#month1 .text {
+    /*width: 90px;*/
+    font-size: 0.6rem;
+    transform: rotate(0deg);
+    position: absolute;
+    top: 14%;
+    left: -51%;
+    transform: translate(-19%, 41%) rotate(180deg);
+}
 
 #month2 {
     position: absolute;
@@ -53,15 +53,15 @@
     transform: rotate(calc(30deg * var(--i))) translate(200px, 100px);
 }
 
-    #month2 .text {
-        /*width: 90px;*/
-        font-size: 0.6rem;
-        transform: rotate(0deg);
-        position: absolute;
-        top: 3%;
-        left: -34%;
-        transform: translate(-19%, 41%) rotate(210deg);
-    }
+#month2 .text {
+    /*width: 90px;*/
+    font-size: 0.6rem;
+    transform: rotate(0deg);
+    position: absolute;
+    top: 3%;
+    left: -34%;
+    transform: translate(-19%, 41%) rotate(210deg);
+}
 
 #month3 {
     position: absolute;
@@ -73,15 +73,15 @@
     transform: rotate(calc(30deg * var(--i))) translate(200px, 100px);
 }
 
-    #month3 .text {
-        /* width: 90px; */
-        font-size: 0.6rem;
-        transform: rotate(0deg);
-        position: absolute;
-        top: -14%;
-        left: -22%;
-        transform: translate(-3%, 151%) rotate(240deg);
-    }
+#month3 .text {
+    /* width: 90px; */
+    font-size: 0.6rem;
+    transform: rotate(0deg);
+    position: absolute;
+    top: -14%;
+    left: -22%;
+    transform: translate(-3%, 151%) rotate(240deg);
+}
 
 #month4 {
     position: absolute;
@@ -93,15 +93,15 @@
     transform: rotate(calc(30deg * var(--i))) translate(200px, 100px);
 }
 
-    #month4 .text {
-        /* width: 90px; */
-        font-size: 0.6rem;
-        transform: rotate(0deg);
-        position: absolute;
-        top: 22%;
-        left: 2%;
-        transform: translate(-19%, 41%) rotate(270deg);
-    }
+#month4 .text {
+    /* width: 90px; */
+    font-size: 0.6rem;
+    transform: rotate(0deg);
+    position: absolute;
+    top: 22%;
+    left: 2%;
+    transform: translate(-19%, 41%) rotate(270deg);
+}
 
 #month5 {
     position: absolute;
@@ -113,15 +113,15 @@
     transform: rotate(calc(30deg * var(--i))) translate(200px, 100px);
 }
 
-    #month5 .text {
-        /* width: 90px; */
-        font-size: 0.6rem;
-        transform: rotate(0deg);
-        position: absolute;
-        top: -31%;
-        left: -9%;
-        transform: translate(-19%, 41%) rotate(300deg);
-    }
+#month5 .text {
+    /* width: 90px; */
+    font-size: 0.6rem;
+    transform: rotate(0deg);
+    position: absolute;
+    top: -31%;
+    left: -9%;
+    transform: translate(-19%, 41%) rotate(300deg);
+}
 
 #month6 {
     position: absolute;
@@ -133,15 +133,15 @@
     transform: rotate(calc(30deg * var(--i))) translate(200px, 100px);
 }
 
-    #month6 .text {
-        /* width: 90px; */
-        font-size: 0.6rem;
-        transform: rotate(0deg);
-        position: absolute;
-        top: -36%;
-        left: 1%;
-        transform: translate(-19%, 41%) rotate(330deg);
-    }
+#month6 .text {
+    /* width: 90px; */
+    font-size: 0.6rem;
+    transform: rotate(0deg);
+    position: absolute;
+    top: -36%;
+    left: 1%;
+    transform: translate(-19%, 41%) rotate(330deg);
+}
 
 #month7 {
     position: absolute;
@@ -153,15 +153,15 @@
     transform: rotate(calc(30deg * var(--i))) translate(200px, 100px);
 }
 
-    #month7 .text {
-        /* width: 90px; */
-        font-size: 0.6rem;
-        transform: rotate(0deg);
-        position: absolute;
-        top: -69%;
-        left: 13%;
-        transform: translate(-9%, 119%) rotate(360deg);
-    }
+#month7 .text {
+    /* width: 90px; */
+    font-size: 0.6rem;
+    transform: rotate(0deg);
+    position: absolute;
+    top: -69%;
+    left: 13%;
+    transform: translate(-9%, 119%) rotate(360deg);
+}
 
 #month8 {
     position: absolute;
@@ -183,15 +183,15 @@
     transform: rotate(calc(30deg * var(--i))) translate(200px, 100px);
 }
 
-    #month9 .text {
-        width: 90px;
-        font-size: 0.6rem;
-        transform: rotate(0deg);
-        position: absolute;
-        top: 104%;
-        left: 80%;
-        transform: translate(-19%, 41%) rotate(60deg);
-    }
+#month9 .text {
+    width: 90px;
+    font-size: 0.6rem;
+    transform: rotate(0deg);
+    position: absolute;
+    top: 104%;
+    left: 80%;
+    transform: translate(-19%, 41%) rotate(60deg);
+}
 
 #month10 {
     position: absolute;
@@ -203,22 +203,22 @@
     transform: rotate(calc(30deg * var(--i))) translate(200px, 100px);
 }
 
-    #month10 .tuiTien {
-        width: 20px;
-        height: auto;
-        position: absolute;
-        top: 14px;
-        left: 18px;
-    }
+#month10 .tuiTien {
+    width: 20px;
+    height: auto;
+    position: absolute;
+    top: 14px;
+    left: 18px;
+}
 
-    #month10 .text {
-        font-size: 0.6rem;
-        transform: rotate(0deg);
-        position: absolute;
-        top: 84%;
-        left: 65%;
-        transform: translate(-24%, 41%) rotate(90deg);
-    }
+#month10 .text {
+    font-size: 0.6rem;
+    transform: rotate(0deg);
+    position: absolute;
+    top: 84%;
+    left: 65%;
+    transform: translate(-24%, 41%) rotate(90deg);
+}
 
 #month11 {
     position: absolute;
@@ -230,45 +230,45 @@
     transform: rotate(calc(30deg * var(--i))) translate(200px, 100px);
 }
 
-    #month11 .text {
-        font-size: 0.7rem;
-        transform: rotate(0deg);
-        position: absolute;
-        top: 57%;
-        left: 54%;
-        transform: translate(-36%, 41%) rotate(120deg);
-    }
+#month11 .text {
+    font-size: 0.7rem;
+    transform: rotate(0deg);
+    position: absolute;
+    top: 57%;
+    left: 54%;
+    transform: translate(-36%, 41%) rotate(120deg);
+}
 
-    #month11 .tuiTien1 {
-        width: 15px;
-        height: auto;
-        position: absolute;
-        top: -38px;
-        left: 53px;
-    }
+#month11 .tuiTien1 {
+    width: 15px;
+    height: auto;
+    position: absolute;
+    top: -38px;
+    left: 53px;
+}
 
-    #month11 .tuiTien2 {
-        width: 12px;
-        height: auto;
-        position: absolute;
-        top: 0px;
-        left: 19px;
-    }
+#month11 .tuiTien2 {
+    width: 12px;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    left: 19px;
+}
 
-    #month11 .tuiTien3 {
-        width: 15px;
-        height: auto;
-        position: absolute;
-        top: 77px;
-        left: 35px;
-    }
+#month11 .tuiTien3 {
+    width: 15px;
+    height: auto;
+    position: absolute;
+    top: 77px;
+    left: 35px;
+}
 
-    #month11 .dauLau {
-        width: 55px;
-        height: auto;
-        position: absolute;
-        top: 27px;
-        left: -25px;
+#month11 .dauLau {
+    width: 55px;
+    height: auto;
+    position: absolute;
+    top: 27px;
+    left: -25px;
     }
 
 #month12 {
@@ -281,16 +281,17 @@
     transform: rotate(calc(30deg * var(--i))) translate(200px, 100px);
 }
 
-    #month12 .text {
-        font-size: 0.7rem;
-        transform: rotate(0deg);
-        position: absolute;
-        top: 135%;
-        left: 2%;
-        transform: translate(-34%, -50%) rotate(150deg);
-    }
+#month12 .text {
+    font-size: 0.7rem;
+    transform: rotate(0deg);
+    position: absolute;
+    top: 135%;
+    left: 2%;
+    transform: translate(-34%, -50%) rotate(150deg);
+}
 
-.tuiTien12 {
+.tuiTien12
+{
     width: 15px;
     height: auto;
     position: absolute;
@@ -310,10 +311,10 @@
     transform: rotate(calc(30deg* var(--i))) translate(200px, 100px);
 }
 
-    #cano img {
-        width: 68px;
-        height: auto;
-    }
+#cano img{
+    width: 68px;
+    height: auto;
+}
 
 #notify {
     position: absolute;
@@ -358,7 +359,17 @@
 }
 
 @media (max-width: 576px) {
-    .letterBgContent {
+    .letterBgContent
+    {
         font-size: 0.8rem;
     }
 }
+
+
+
+
+
+
+
+
+

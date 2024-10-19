@@ -1,15 +1,335 @@
-﻿.b1-background {
-    background-image: url('/image/background/Anhmemxanh.png');
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    width: 100vw; 
-    min-height: 100vh; 
+﻿.page-background {
+    background-image: url('/assets/img/BG/Anhmemxanh.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 1.5rem;
 }
 
-.letterBg
-{
-    background-image: url('/image/Others/14.png');
+.ellipse-container {
+    position: relative;
+    width: 800px;
+    height: 200px;
+    margin: 50px 80px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+.month img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transform: rotate(calc(-30deg * var(--i)));
+}
+
+#month1 {
+    position: absolute;
+    top: 135%;
+    left: 28%;
+    width: 110px;
+    height: 100px;
+    transform-origin: 0 0;
+    transform: rotate(calc(30deg * var(--i))) translate(200px, 100px);
+}
+
+    #month1 .text {
+        /*width: 90px;*/
+        font-size: 0.6rem;
+        transform: rotate(0deg);
+        position: absolute;
+        top: 14%;
+        left: -51%;
+        transform: translate(-19%, 41%) rotate(180deg);
+    }
+
+#month2 {
+    position: absolute;
+    top: 122%;
+    left: 34%;
+    width: 110px;
+    height: 100px;
+    transform-origin: 0 0;
+    transform: rotate(calc(30deg * var(--i))) translate(200px, 100px);
+}
+
+    #month2 .text {
+        /*width: 90px;*/
+        font-size: 0.6rem;
+        transform: rotate(0deg);
+        position: absolute;
+        top: 3%;
+        left: -34%;
+        transform: translate(-19%, 41%) rotate(210deg);
+    }
+
+#month3 {
+    position: absolute;
+    top: 93%;
+    left: 37%;
+    width: 120px;
+    height: 100px;
+    transform-origin: 0 0;
+    transform: rotate(calc(30deg * var(--i))) translate(200px, 100px);
+}
+
+    #month3 .text {
+        /* width: 90px; */
+        font-size: 0.6rem;
+        transform: rotate(0deg);
+        position: absolute;
+        top: -14%;
+        left: -22%;
+        transform: translate(-3%, 151%) rotate(240deg);
+    }
+
+#month4 {
+    position: absolute;
+    top: 38%;
+    left: 40%;
+    width: 130px;
+    height: 100px;
+    transform-origin: 0 0;
+    transform: rotate(calc(30deg * var(--i))) translate(200px, 100px);
+}
+
+    #month4 .text {
+        /* width: 90px; */
+        font-size: 0.6rem;
+        transform: rotate(0deg);
+        position: absolute;
+        top: 22%;
+        left: 2%;
+        transform: translate(-19%, 41%) rotate(270deg);
+    }
+
+#month5 {
+    position: absolute;
+    top: 24%;
+    left: 40%;
+    width: 130px;
+    height: 100px;
+    transform-origin: 0 0;
+    transform: rotate(calc(30deg * var(--i))) translate(200px, 100px);
+}
+
+    #month5 .text {
+        /* width: 90px; */
+        font-size: 0.6rem;
+        transform: rotate(0deg);
+        position: absolute;
+        top: -31%;
+        left: -9%;
+        transform: translate(-19%, 41%) rotate(300deg);
+    }
+
+#month6 {
+    position: absolute;
+    top: 23%;
+    left: 43%;
+    width: 100px;
+    height: 100px;
+    transform-origin: 0 0;
+    transform: rotate(calc(30deg * var(--i))) translate(200px, 100px);
+}
+
+    #month6 .text {
+        /* width: 90px; */
+        font-size: 0.6rem;
+        transform: rotate(0deg);
+        position: absolute;
+        top: -36%;
+        left: 1%;
+        transform: translate(-19%, 41%) rotate(330deg);
+    }
+
+#month7 {
+    position: absolute;
+    top: 78%;
+    left: 45%;
+    width: 120px;
+    height: 100px;
+    transform-origin: 0 0;
+    transform: rotate(calc(30deg * var(--i))) translate(200px, 100px);
+}
+
+    #month7 .text {
+        /* width: 90px; */
+        font-size: 0.6rem;
+        transform: rotate(0deg);
+        position: absolute;
+        top: -69%;
+        left: 13%;
+        transform: translate(-9%, 119%) rotate(360deg);
+    }
+
+#month8 {
+    position: absolute;
+    top: 73%;
+    left: 54%;
+    width: 180px;
+    height: 100px;
+    transform-origin: 0 0;
+    transform: rotate(calc(30deg * var(--i))) translate(200px, 100px);
+}
+
+#month9 {
+    position: absolute;
+    top: 96%;
+    left: 58%;
+    width: 80px;
+    height: 100px;
+    transform-origin: 0 0;
+    transform: rotate(calc(30deg * var(--i))) translate(200px, 100px);
+}
+
+    #month9 .text {
+        width: 90px;
+        font-size: 0.6rem;
+        transform: rotate(0deg);
+        position: absolute;
+        top: 104%;
+        left: 80%;
+        transform: translate(-19%, 41%) rotate(60deg);
+    }
+
+#month10 {
+    position: absolute;
+    top: 135%;
+    left: 61%;
+    width: 150px;
+    height: 100px;
+    transform-origin: 0 0;
+    transform: rotate(calc(30deg * var(--i))) translate(200px, 100px);
+}
+
+    #month10 .tuiTien {
+        width: 20px;
+        height: auto;
+        position: absolute;
+        top: 14px;
+        left: 18px;
+    }
+
+    #month10 .text {
+        font-size: 0.6rem;
+        transform: rotate(0deg);
+        position: absolute;
+        top: 84%;
+        left: 65%;
+        transform: translate(-24%, 41%) rotate(90deg);
+    }
+
+#month11 {
+    position: absolute;
+    top: 144%;
+    left: 62%;
+    width: 145px;
+    height: 100px;
+    transform-origin: 0 0;
+    transform: rotate(calc(30deg * var(--i))) translate(200px, 100px);
+}
+
+    #month11 .text {
+        font-size: 0.7rem;
+        transform: rotate(0deg);
+        position: absolute;
+        top: 57%;
+        left: 54%;
+        transform: translate(-36%, 41%) rotate(120deg);
+    }
+
+    #month11 .tuiTien1 {
+        width: 15px;
+        height: auto;
+        position: absolute;
+        top: -38px;
+        left: 53px;
+    }
+
+    #month11 .tuiTien2 {
+        width: 12px;
+        height: auto;
+        position: absolute;
+        top: 0px;
+        left: 19px;
+    }
+
+    #month11 .tuiTien3 {
+        width: 15px;
+        height: auto;
+        position: absolute;
+        top: 77px;
+        left: 35px;
+    }
+
+    #month11 .dauLau {
+        width: 55px;
+        height: auto;
+        position: absolute;
+        top: 27px;
+        left: -25px;
+    }
+
+#month12 {
+    position: absolute;
+    top: 137%;
+    left: 53%;
+    width: 165px;
+    height: 100px;
+    transform-origin: 0 0;
+    transform: rotate(calc(30deg * var(--i))) translate(200px, 100px);
+}
+
+    #month12 .text {
+        font-size: 0.7rem;
+        transform: rotate(0deg);
+        position: absolute;
+        top: 135%;
+        left: 2%;
+        transform: translate(-34%, -50%) rotate(150deg);
+    }
+
+.tuiTien12 {
+    width: 15px;
+    height: auto;
+    position: absolute;
+    top: 98px;
+    left: -32px;
+}
+
+#month12 .text .labelblacktext {
+    margin-bottom: 20px;
+}
+
+#cano {
+    position: absolute;
+    top: 121%;
+    left: 56%;
+    transform-origin: 0 0;
+    transform: rotate(calc(30deg* var(--i))) translate(200px, 100px);
+}
+
+    #cano img {
+        width: 68px;
+        height: auto;
+    }
+
+#notify {
+    position: absolute;
+    top: 180%;
+    left: 47%;
+    transform-origin: 0 0;
+    transform: rotate(calc(30deg* var(--i))) translate(200px, 100px);
+}
+
+/*#notify img {
+    width: 100px;
+    height: auto;
+}*/
+
+.letterBg {
+    background-image: url('/assets/img/Dao/14.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -19,116 +339,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: rotate(calc(-30deg * var(--i)));
 }
 
-.letterBgContent
-{
+.letterBgContent {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.redNormalText
-{
-    color: #c10000;
-    font-weight: bold;
+.text {
+    text-align: center;
 }
 
-.boxThoiTiet
-{
-    display: flex; 
-    justify-content: center;
-    padding: 5px 5px;
-    /* width: 200px; */
-    border-radius: 5px;
-    background-color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+.ship-stats {
+    margin-top: 200px;
 }
 
-.DaoRuaBg
-{
-    background-image: url('/image/Dao/7.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 10vw;
-    height: 10vh;
-    /* margin-left: 250px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@media (max-width: 576px) {
+    .letterBgContent {
+        font-size: 0.8rem;
+    }
 }
-
-.DaoRuaContent
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: #c10000;
-    font-weight: bold;
-}
-
-.dao12
-{
-    position: relative;
-}
-
-.co12
-{
-    position: absolute;
-    top: 78px;
-    left: 374px;
-}
-
-.text12
-{
-    position: absolute;
-    top: 88px;
-    left: 507px;
-    display: flex;
-    flex-direction: column;
-}
-
-.dao11
-{
-    position: relative;
-}
-
-.co11
-{
-    position: absolute;
-    top: 149px;
-    left: 623px;
-}
-
-.text11
-{
-    position: absolute;
-    top: 117px;
-    left: 740px;
-}
-
-.dao10
-{
-    position: relative;
-}
-
-.co10
-{
-    position: absolute;
-    top: 200px;
-    left: 918px;
-}
-
-.text10
-{
-    position: absolute;
-    top: 147px;
-    left: 898px;
-}
-
-
-
-
