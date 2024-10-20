@@ -99,6 +99,11 @@ namespace GoilacoPj.Controllers
             return View();
         }
 
+        public IActionResult Page17()
+        {
+            return View();
+        }
+
         public IActionResult Page18()
         {
             return View();

@@ -1,32 +1,266 @@
 ﻿@section Styles
 {
-    <link href="~/css/Page15.css" rel="stylesheet" />
+    <link href="~/css/Home/Page15.css" rel="stylesheet" />
 }
 
 <div class="page-background">
 
     @await Html.PartialAsync("~/Views/Shared/_headerNav.cshtml")
 
-    <div class="b1-container">
+    @* <div class="row mb-3 justify-content-end">
 
-        <div class="d-flex justify-content-end redtext mt-3">
-            chuyên mục
+        <div class="col-xl-5">
+
+            <div class="labelredtext d-flex justify-content-end me-5 mb-2">chuyên mục</div>
+            <div class="d-flex gap-3 justify-content-center">
+
+                <div class="">
+                    <div class="search-container">
+                        <input type="search" class="search-input">
+                        <button class="search-button">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="boxText labelblacktext">Sự kiện</div>
+                    <div class="boxText labelblacktext mt-3">Nhân sự</div>
+                    <div class="boxText labelblacktext mt-3">Quy chế</div>
+                </div>
+                
+            </div>
         </div>
 
-        <div class="d-flex gap-4 justify-content-end mt-3">
-            <div class="search-container">
-                <input type="text" class="search-input">
-                <button class="search-button">
-                    <i class="fa fa-search"></i>
-                </button>
-            </div>
+    </div> *@
 
-            <div class="boxText labelblacktext">
-                Sự kiện
+    <div class="row mb-3 rowHeader">
+
+        <div class="col-xl-5 justify-content-end">
+
+            <div class="labelredtext col-xl-12 titleHeader mb-2">Chuyên mục</div>
+
+            <div class="row">
+
+                <div class="col-xl-8 col-md-4 col-sm-4 mb-3">
+                    <div class="search-container">
+                        <input type="search" class="search-input">
+                        <button class="search-button">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-8 col-sm-8">
+                    <div class="row gap-2">
+                        <div class="boxText labelblacktext col-xl-12 col-md-4 col-sm-4">Sự kiện</div>
+                        <div class="boxText labelblacktext mt-xl-2 col-xl-12 col-md-4 col-sm-4">Nhân sự</div>
+                        <div class="boxText labelblacktext mt-xl-2 col-xl-12 col-md-4 col-sm-4">Quy chế</div>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
 
-        <div class="d-flex">
+    <div class="row row2">
+
+        <div class="col-xl-8">
+
+            <div class="row">
+                <div class="col-xl-4 col-md-6 mb-3">
+                    <div class="card">
+                        <div class="d-flex card-header" style="background-color: #ffeeb6;">
+                            <div class="d-flex justify-content-center gap-2 col-11">
+                                <div class="cardNode">
+                                </div>
+                                <div class="blacktext" style="font-size: 0.8rem;">
+                                    3/3/2023 Sự kiện
+                                </div>
+                            </div>
+                            <div class="col d-flex justify-content-end align-items-center">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center">
+                                <img src="~/assets/img/Others/sk1.png" style="width: 100%; height: auto;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blacktext text-center" style="font-size: 0.8rem;">
+                        Sự kiện Model Kids Praz chuẩn bị tổ chức vào tháng 12/2024
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-6 mb-3">
+                    <div class="card">
+                        <div class="d-flex card-header" style="background-color: #ffeeb6;">
+                            <div class="d-flex justify-content-center gap-2 col-11">
+                                <div class="cardNode">
+                                </div>
+                                <div class="blacktext" style="font-size: 0.8rem;">
+                                    3/3/2023 Sự kiện
+                                </div>
+                            </div>
+                            <div class="col d-flex justify-content-end align-items-center">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center">
+                                <img src="~/assets/img/Others/sk1.png" style="width: 100%; height: auto;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blacktext text-center" style="font-size: 0.8rem;">
+                        Sự kiện Model Kids Praz chuẩn bị tổ chức vào tháng 12/2024
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-6 mb-3">
+                    <div class="card">
+                        <div class="d-flex card-header" style="background-color: #ffeeb6;">
+                            <div class="d-flex justify-content-center gap-2 col-11">
+                                <div class="cardNode">
+                                </div>
+                                <div class="blacktext" style="font-size: 0.8rem;">
+                                    3/3/2023 Sự kiện
+                                </div>
+                            </div>
+                            <div class="col d-flex justify-content-end align-items-center">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center">
+                                <img src="~/assets/img/Others/sk1.png" style="width: 100%; height: auto;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blacktext text-center" style="font-size: 0.8rem;">
+                        Sự kiện Model Kids Praz chuẩn bị tổ chức vào tháng 12/2024
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-6 mb-3">
+                    <div class="card">
+                        <div class="d-flex card-header" style="background-color: #ffeeb6;">
+                            <div class="d-flex justify-content-center gap-2 col-11">
+                                <div class="cardNode">
+                                </div>
+                                <div class="blacktext" style="font-size: 0.8rem;">
+                                    3/3/2023 Sự kiện
+                                </div>
+                            </div>
+                            <div class="col d-flex justify-content-end align-items-center">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center">
+                                <img src="~/assets/img/Others/sk1.png" style="width: 100%; height: auto;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blacktext text-center" style="font-size: 0.8rem;">
+                        Sự kiện Model Kids Praz chuẩn bị tổ chức vào tháng 12/2024
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-6 mb-3">
+                    <div class="card">
+                        <div class="d-flex card-header" style="background-color: #ffeeb6;">
+                            <div class="d-flex justify-content-center gap-2 col-11">
+                                <div class="cardNode">
+                                </div>
+                                <div class="blacktext" style="font-size: 0.8rem;">
+                                    3/3/2023 Sự kiện
+                                </div>
+                            </div>
+                            <div class="col d-flex justify-content-end align-items-center">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center">
+                                <img src="~/assets/img/Others/sk1.png" style="width: 100%; height: auto;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blacktext text-center" style="font-size: 0.8rem;">
+                        Sự kiện Model Kids Praz chuẩn bị tổ chức vào tháng 12/2024
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-6 mb-3">
+                    <div class="card">
+                        <div class="d-flex card-header" style="background-color: #ffeeb6;">
+                            <div class="d-flex justify-content-center gap-2 col-11">
+                                <div class="cardNode">
+                                </div>
+                                <div class="blacktext" style="font-size: 0.8rem;">
+                                    3/3/2023 Sự kiện
+                                </div>
+                            </div>
+                            <div class="col d-flex justify-content-end align-items-center">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center">
+                                <img src="~/assets/img/Others/sk1.png" style="width: 100%; height: auto;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blacktext text-center" style="font-size: 0.8rem;">
+                        Sự kiện Model Kids Praz chuẩn bị tổ chức vào tháng 12/2024
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-xl-4 d-flex align-items-end justify-content-center">
+
+            <div class="d-flex">
+                <img src="~/assets/img/Others/sk7.png" style="width: 100%; height: auto;">
+            </div>
+
+        </div>
+
+    </div>
+
+
+    @* <div class="d-flex justify-content-end labelredtext mt-3">
+        chuyên mục
+    </div>
+
+    <div class="d-flex gap-4 justify-content-end mt-3">
+        <div class="search-container">
+            <input type="text" class="search-input">
+            <button class="search-button">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+
+        <div class="boxText labelblacktext">
+            Sự kiện
+        </div>
+    </div>
+
+    <div class="d-flex">
 
             <div class="col-8">
 
@@ -34,10 +268,10 @@
                     <div class="mt-4">
                         <div class="card">
                             <div class="d-flex card-header" style="background-color: #ffeeb6;">
-                                <div class="d-flex justify-content-center gap-5 col-10">
+                                <div class="d-flex justify-content-center gap-2 col-11">
                                     <div class="cardNode">
                                     </div>
-                                    <div class="blacktext">
+                                    <div class="blacktext" style="font-size: 0.8rem;">
                                         3/3/2023 Sự kiện
                                     </div>
                                 </div>
@@ -48,12 +282,12 @@
 
                             <div class="card-body">
                                 <div class="d-flex justify-content-center">
-                                    <img src="~/image/Others/sk1.png" >
+                                    <img src="~/assets/img/Others/sk1.png" style="width: 100%; height: auto;">
                                 </div>
                             </div>
                         </div>
 
-                        <div class="blacktext">
+                        <div class="blacktext text-center" style="font-size: 0.8rem;">
                             Sự kiện Model Kids Praz chuẩn bị tổ chức vào tháng 12/2024
                         </div>
                     </div>
@@ -61,10 +295,10 @@
                     <div class="mt-4">
                         <div class="card">
                             <div class="d-flex card-header" style="background-color: #ffeeb6;">
-                                <div class="d-flex justify-content-center gap-5 col-10">
+                                <div class="d-flex justify-content-center gap-2 col-11">
                                     <div class="cardNode">
                                     </div>
-                                    <div class="blacktext">
+                                    <div class="blacktext" style="font-size: 0.8rem;">
                                         3/3/2023 Sự kiện
                                     </div>
                                 </div>
@@ -75,12 +309,12 @@
 
                             <div class="card-body">
                                 <div class="d-flex justify-content-center">
-                                    <img src="~/image/Others/sk1.png" >
+                                    <img src="~/assets/img/Others/sk2.png" style="width: 100%; height: auto;" >
                                 </div>
                             </div>
                         </div>
 
-                        <div class="blacktext">
+                        <div class="blacktext text-center" style="font-size: 0.8rem;">
                             Sự kiện Model Kids Praz chuẩn bị tổ chức vào tháng 12/2024
                         </div>
                     </div>
@@ -88,10 +322,10 @@
                     <div class="mt-4">
                         <div class="card">
                             <div class="d-flex card-header" style="background-color: #ffeeb6;">
-                                <div class="d-flex justify-content-center gap-5 col-10">
+                                <div class="d-flex justify-content-center gap-2 col-11">
                                     <div class="cardNode">
                                     </div>
-                                    <div class="blacktext">
+                                    <div class="blacktext" style="font-size: 0.8rem;">
                                         3/3/2023 Sự kiện
                                     </div>
                                 </div>
@@ -102,12 +336,12 @@
 
                             <div class="card-body">
                                 <div class="d-flex justify-content-center">
-                                    <img src="~/image/Others/sk1.png" >
+                                    <img src="~/assets/img/Others/sk3.png" style="width: 100%; height: auto;">
                                 </div>
                             </div>
                         </div>
 
-                        <div class="blacktext">
+                        <div class="blacktext text-center" style="font-size: 0.8rem;">
                             Sự kiện Model Kids Praz chuẩn bị tổ chức vào tháng 12/2024
                         </div>
                     </div>
@@ -118,10 +352,10 @@
                     <div class="mt-4">
                         <div class="card">
                             <div class="d-flex card-header" style="background-color: #ffeeb6;">
-                                <div class="d-flex justify-content-center gap-5 col-10">
+                                <div class="d-flex justify-content-center gap-2 col-11">
                                     <div class="cardNode">
                                     </div>
-                                    <div class="blacktext">
+                                    <div class="blacktext" style="font-size: 0.8rem;">
                                         3/3/2023 Sự kiện
                                     </div>
                                 </div>
@@ -132,12 +366,12 @@
 
                             <div class="card-body">
                                 <div class="d-flex justify-content-center">
-                                    <img src="~/image/Others/sk1.png" >
+                                    <img src="~/assets/img/Others/sk4.png" style="width: 100%; height: auto;" >
                                 </div>
                             </div>
                         </div>
 
-                        <div class="blacktext">
+                        <div class="blacktext text-center" style="font-size: 0.8rem;">
                             Sự kiện Model Kids Praz chuẩn bị tổ chức vào tháng 12/2024
                         </div>
                     </div>
@@ -145,10 +379,10 @@
                     <div class="mt-4">
                         <div class="card">
                             <div class="d-flex card-header" style="background-color: #ffeeb6;">
-                                <div class="d-flex justify-content-center gap-5 col-10">
+                                <div class="d-flex justify-content-center gap-2 col-11">
                                     <div class="cardNode">
                                     </div>
-                                    <div class="blacktext">
+                                    <div class="blacktext" style="font-size: 0.8rem;">
                                         3/3/2023 Sự kiện
                                     </div>
                                 </div>
@@ -159,12 +393,12 @@
 
                             <div class="card-body">
                                 <div class="d-flex justify-content-center">
-                                    <img src="~/image/Others/sk1.png" >
+                                    <img src="~/assets/img/Others/sk5.png" style="width: 100%; height: auto;">
                                 </div>
                             </div>
                         </div>
 
-                        <div class="blacktext">
+                        <div class="blacktext text-center" style="font-size: 0.8rem;">
                             Sự kiện Model Kids Praz chuẩn bị tổ chức vào tháng 12/2024
                         </div>
                     </div>
@@ -172,10 +406,10 @@
                     <div class="mt-4">
                         <div class="card">
                             <div class="d-flex card-header" style="background-color: #ffeeb6;">
-                                <div class="d-flex justify-content-center gap-5 col-10">
+                                <div class="d-flex justify-content-center gap-2 col-11">
                                     <div class="cardNode">
                                     </div>
-                                    <div class="blacktext">
+                                    <div class="blacktext" style="font-size: 0.8rem;">
                                         3/3/2023 Sự kiện
                                     </div>
                                 </div>
@@ -186,12 +420,12 @@
 
                             <div class="card-body">
                                 <div class="d-flex justify-content-center">
-                                    <img src="~/image/Others/sk1.png" >
+                                    <img src="~/assets/img/Others/sk6.png" style="width: 100%; height: auto;">
                                 </div>
                             </div>
                         </div>
 
-                        <div class="blacktext">
+                        <div class="blacktext text-center" style="font-size: 0.8rem;">
                             Sự kiện Model Kids Praz chuẩn bị tổ chức vào tháng 12/2024
                         </div>
                     </div>
@@ -209,18 +443,17 @@
                 </div>
 
                 <div class="d-flex flex-column align-items-center mt-3">
-                    <img src="~/image/Others/sk7.png" style="width: 70%; height: auto;">
+                    <img src="~/assets/img/Others/sk7.png" style="width: 70%; height: auto;">
                 </div>
 
             </div>
 
-        </div>
+        </div> *@
 
-    </div>
 
 </div>
 
 @section Scripts
 {
-    <script src="~/js/Page15.js"></script>
+    <script src="~/js/Home/Page15.js"></script>
 }
