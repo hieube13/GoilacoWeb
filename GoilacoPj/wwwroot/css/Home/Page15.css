@@ -40,10 +40,10 @@
     color: #007bff; 
 }
 
-.boxText
-{
-    display: flex; 
+.boxText {
+    display: flex;
     justify-content: center;
+    align-items: center;
     padding: 5px 20px;
     border-radius: 10px;
     background-color: #ffffff;
@@ -62,10 +62,16 @@
     padding: 5px 1rem !important;
 }
 
+a:hover {
+    background-color: #DCDCDC;
+    color: #000000;
+}
+
 @media (min-width: 1190px) {
     .row2 {
         position: relative;
         top: -80px;
+        z-index: 0;
     }
 
     .titleHeader {
@@ -76,7 +82,10 @@
 
     .rowHeader {
         justify-content: end;
+        position: relative; 
+        z-index: 1; 
     }
+
 }
 
 
